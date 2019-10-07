@@ -16,5 +16,20 @@ namespace ProjetJeux
         {
             InitializeComponent();
         }
+
+        private void BtnStart_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnLoad_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
