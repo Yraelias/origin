@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjetJeux
 {
-    public partial class EcranMenu : Form
+    public partial class MainMenu : Form
     {
-        public EcranMenu()
+        public MainMenu()
         {
             InitializeComponent();
         }

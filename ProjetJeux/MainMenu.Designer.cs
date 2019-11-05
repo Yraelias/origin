@@ -1,6 +1,6 @@
 ﻿namespace ProjetJeux
 {
-    partial class EcranMenu
+    partial class MainMenu
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -63,7 +63,7 @@
             this.BtnLoad.UseVisualStyleBackColor = true;
             this.BtnLoad.Click += new System.EventHandler(this.BtnLoad_Click);
             // 
-            // EcranMenu
+            // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -71,7 +71,7 @@
             this.Controls.Add(this.BtnLoad);
             this.Controls.Add(this.BtnExit);
             this.Controls.Add(this.BtnStart);
-            this.Name = "EcranMenu";
+            this.Name = "MainMenu";
             this.Text = "Menu ";
             this.ResumeLayout(false);
 
